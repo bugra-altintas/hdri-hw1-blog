@@ -1,0 +1,5 @@
+title: HDR HW1 – Camera Response Recovery
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: null
