@@ -3,6 +3,11 @@ MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$'
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>
 
+<script>
+MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] } };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>
+
 # Introduction
 A camera response function can be defined as a non-linear mapping from scene exposure values to pixel values. Debevec and Malik method's goal is to recover that response function. If a camera's response function is known, the inverse of it can be used to obtain a radiance map from pixel values. The recovering response function method is implemented in this assignment.
 
